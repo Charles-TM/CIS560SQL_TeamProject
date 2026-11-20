@@ -1,0 +1,3 @@
+IF TYPE_ID(N'dbo.GameCart') IS NULL
+    EXEC(N'CREATE TYPE dbo.GameCart AS TABLE (GameID INT NOT NULL PRIMARY KEY);');
+GO
